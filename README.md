@@ -7,6 +7,7 @@ These concepts form the foundation of writing efficient SQL queries for reportin
 
 ## 🎯 Learning Objectives
 After completing these exercises, you should be able to:
+* Retrieve data using standard query filters.
 * Use aggregate functions to summarize data.
 * Apply SQL operators to filter and compare data.
 * Manipulate and format dates using date functions.
@@ -17,6 +18,25 @@ After completing these exercises, you should be able to:
 ---
 
 ## 📂 Exercises Covered
+
+### 🔹 Exercise 1 – SQL Fundamentals
+#### Description
+This foundational exercise introduces core data retrieval techniques, focusing on extracting target fields out of database tables, filtering rows, and sorting outputs.
+
+#### Topics Covered
+* **Basic Selection:** `SELECT *` (all columns) vs. explicit column mapping.
+* **Deduplication:** Removing redundant values using `DISTINCT`.
+* **Sorting Records:** Ordering query output in ascending or descending blocks using `ORDER BY`.
+* **Row Limits:** Constraining results using the `LIMIT` clause.
+* **Basic Filtering:** Building row filters using the `WHERE` clause combined with conditional logic.
+
+#### Learning Outcomes
+* Query individual database columns efficiently.
+* Clean result sets by pulling unique attribute combinations.
+* Sort records to isolate top performing metrics or chronological order.
+* Isolate target data scopes using foundational `WHERE` parameters.
+
+---
 
 ### 🔹 Exercise 2 – SQL Aggregates and Operators
 #### Description
@@ -114,6 +134,7 @@ This exercise demonstrates how to append the execution sets of two or more indep
 
 ## 🛠️ Skills Developed
 By completing these exercises, you will develop the ability to:
+* Navigate structural relational database tables using standardized queries.
 * Summarize high-volume tables cleanly using aggregation tools.
 * Narrow evaluation logic via conditional processing operators.
 * Parse complex historical variables with timestamp formulas.
@@ -140,5 +161,3 @@ The SQL concepts taught within this curriculum map directly to professional oper
 
 ## 💡 Conclusion
 These exercises provide direct experience working with fundamental SQL functions and query variations that drive modern relational databases. Mastering aggregates, operators, date calculations, relational joins, null strategies, and set logic establishes the groundwork required to extract value from data and prepare for advanced analytical engineering tracks.
-
-
